@@ -1,0 +1,221 @@
+Class documentation
+<---- javadoc command: ---->
+/snap/bluej/315/usr/share/bluej/jdk/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+17
+-classpath
+/snap/bluej/315/usr/share/bluej/bluejcore.jar:/snap/bluej/315/usr/share/bluej/javafx-base-20.0.1-linux.jar:/snap/bluej/315/usr/share/bluej/javafx-base-20.0.1.jar:/snap/bluej/315/usr/share/bluej/javafx-controls-20.0.1-linux.jar:/snap/bluej/315/usr/share/bluej/javafx-controls-20.0.1.jar:/snap/bluej/315/usr/share/bluej/javafx-fxml-20.0.1-linux.jar:/snap/bluej/315/usr/share/bluej/javafx-graphics-20.0.1-linux.jar:/snap/bluej/315/usr/share/bluej/javafx-graphics-20.0.1.jar:/snap/bluej/315/usr/share/bluej/javafx-media-20.0.1-linux.jar:/snap/bluej/315/usr/share/bluej/javafx-media-20.0.1.jar:/snap/bluej/315/usr/share/bluej/javafx-swing-20.0.1-linux.jar:/snap/bluej/315/usr/share/bluej/javafx-web-20.0.1-linux.jar:/snap/bluej/315/usr/share/bluej/junit-4.12.jar:/snap/bluej/315/usr/share/bluej/junit-jupiter-5.5.2.jar:/snap/bluej/315/usr/share/bluej/junit-jupiter-api-5.5.2.jar:/snap/bluej/315/usr/share/bluej/junit-jupiter-engine-5.5.2.jar:/snap/bluej/315/usr/share/bluej/junit-jupiter-params-5.5.2.jar:/snap/bluej/315/usr/share/bluej/junit-platform-commons-1.5.2.jar:/snap/bluej/315/usr/share/bluej/junit-platform-engine-1.5.2.jar:/snap/bluej/315/usr/share/bluej/junit-platform-launcher-1.5.2.jar:/snap/bluej/315/usr/share/bluej/junit-platform-suite-api-1.5.2.jar:/snap/bluej/315/usr/share/bluej/junit-vintage-engine-5.5.2.jar:/snap/bluej/315/usr/share/bluej/hamcrest-core-1.3.jar:/snap/bluej/315/usr/share/bluej/opentest4j-1.2.0.jar:/snap/bluej/315/usr/share/bluej/lang-stride.jar:/snap/bluej/315/usr/share/bluej/javafx/javafx.base.jar:/snap/bluej/315/usr/share/bluej/javafx/javafx.controls.jar:/snap/bluej/315/usr/share/bluej/javafx/javafx.fxml.jar:/snap/bluej/315/usr/share/bluej/javafx/javafx.graphics.jar:/snap/bluej/315/usr/share/bluej/javafx/javafx.media.jar:/snap/bluej/315/usr/share/bluej/javafx/javafx.properties.jar:/snap/bluej/315/usr/share/bluej/javafx/javafx.swing.jar:/snap/bluej/315/usr/share/bluej/javafx/javafx.web.jar:/home/student/tictactoe/tictactoe
+-d
+/home/student/tictactoe/tictactoe/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+/home/student/tictactoe/tictactoe/EventLoop.java
+<---- end of javadoc command ---->
+Loading source file /home/student/tictactoe/tictactoe/EventLoop.java...
+/home/student/tictactoe/tictactoe/EventLoop.java:4: error: ';' expected
+    initialize program state data
+                      ^
+/home/student/tictactoe/tictactoe/EventLoop.java:4: error: ';' expected
+    initialize program state data
+                                 ^
+/home/student/tictactoe/tictactoe/EventLoop.java:6: error: <identifier> expected
+    if gameState == STANDBY
+                ^
+/home/student/tictactoe/tictactoe/EventLoop.java:7: error: ';' expected
+      set gameState = GET_X_NAME
+         ^
+/home/student/tictactoe/tictactoe/EventLoop.java:7: error: <identifier> expected
+      set gameState = GET_X_NAME
+                   ^
+/home/student/tictactoe/tictactoe/EventLoop.java:7: error: ';' expected
+      set gameState = GET_X_NAME
+                                ^
+/home/student/tictactoe/tictactoe/EventLoop.java:9: error: <identifier> expected
+    else if gameState == GET_X_NAME
+                     ^
+/home/student/tictactoe/tictactoe/EventLoop.java:10: error: ';' expected
+      get player X name
+         ^
+/home/student/tictactoe/tictactoe/EventLoop.java:10: error: ';' expected
+      get player X name
+                  ^
+/home/student/tictactoe/tictactoe/EventLoop.java:11: error: ';' expected
+      set gameState = GET_O_NAME
+         ^
+/home/student/tictactoe/tictactoe/EventLoop.java:11: error: <identifier> expected
+      set gameState = GET_O_NAME
+                   ^
+/home/student/tictactoe/tictactoe/EventLoop.java:11: error: ';' expected
+      set gameState = GET_O_NAME
+                                ^
+/home/student/tictactoe/tictactoe/EventLoop.java:13: error: <identifier> expected
+    else if gameState == GET_O_NAME
+                     ^
+/home/student/tictactoe/tictactoe/EventLoop.java:14: error: ';' expected
+      get player O name
+         ^
+/home/student/tictactoe/tictactoe/EventLoop.java:14: error: ';' expected
+      get player O name
+                  ^
+/home/student/tictactoe/tictactoe/EventLoop.java:15: error: ';' expected
+      set gameState = GET_X_MOVE
+         ^
+/home/student/tictactoe/tictactoe/EventLoop.java:15: error: <identifier> expected
+      set gameState = GET_X_MOVE
+                   ^
+/home/student/tictactoe/tictactoe/EventLoop.java:15: error: ';' expected
+      set gameState = GET_X_MOVE
+                                ^
+/home/student/tictactoe/tictactoe/EventLoop.java:17: error: <identifier> expected
+    else if gameState == GET_X_MOVE
+                     ^
+/home/student/tictactoe/tictactoe/EventLoop.java:17: error: <identifier> expected
+    else if gameState == GET_X_MOVE
+                                   ^
+/home/student/tictactoe/tictactoe/EventLoop.java:19: error: ';' expected
+        get player X's row and column to move
+                  ^
+/home/student/tictactoe/tictactoe/EventLoop.java:19: error: unclosed character literal
+        get player X's row and column to move
+                    ^
+/home/student/tictactoe/tictactoe/EventLoop.java:19: error: ';' expected
+        get player X's row and column to move
+                              ^
+/home/student/tictactoe/tictactoe/EventLoop.java:19: error: ';' expected
+        get player X's row and column to move
+                                        ^
+/home/student/tictactoe/tictactoe/EventLoop.java:19: error: <identifier> expected
+        get player X's row and column to move
+                                             ^
+/home/student/tictactoe/tictactoe/EventLoop.java:20: error: unclosed character literal
+      while player's inputs and player's move are NOT valid
+                  ^
+/home/student/tictactoe/tictactoe/EventLoop.java:20: error: ';' expected
+      while player's inputs and player's move are NOT valid
+                               ^
+/home/student/tictactoe/tictactoe/EventLoop.java:20: error: unclosed character literal
+      while player's inputs and player's move are NOT valid
+                                      ^
+/home/student/tictactoe/tictactoe/EventLoop.java:20: error: ';' expected
+      while player's inputs and player's move are NOT valid
+                                                 ^
+/home/student/tictactoe/tictactoe/EventLoop.java:20: error: ';' expected
+      while player's inputs and player's move are NOT valid
+                                                           ^
+/home/student/tictactoe/tictactoe/EventLoop.java:21: error: ';' expected
+      set gameState = MAKE_MOVE
+                               ^
+/home/student/tictactoe/tictactoe/EventLoop.java:23: error: <identifier> expected
+    else if gameState == GET_O_MOVE
+                     ^
+/home/student/tictactoe/tictactoe/EventLoop.java:23: error: <identifier> expected
+    else if gameState == GET_O_MOVE
+                                   ^
+/home/student/tictactoe/tictactoe/EventLoop.java:25: error: ';' expected
+        get player O's row and column to move
+                  ^
+/home/student/tictactoe/tictactoe/EventLoop.java:25: error: unclosed character literal
+        get player O's row and column to move
+                    ^
+/home/student/tictactoe/tictactoe/EventLoop.java:25: error: ';' expected
+        get player O's row and column to move
+                              ^
+/home/student/tictactoe/tictactoe/EventLoop.java:25: error: ';' expected
+        get player O's row and column to move
+                                        ^
+/home/student/tictactoe/tictactoe/EventLoop.java:25: error: <identifier> expected
+        get player O's row and column to move
+                                             ^
+/home/student/tictactoe/tictactoe/EventLoop.java:26: error: unclosed character literal
+      while player's inputs and player's move are NOT valid
+                  ^
+/home/student/tictactoe/tictactoe/EventLoop.java:26: error: ';' expected
+      while player's inputs and player's move are NOT valid
+                               ^
+/home/student/tictactoe/tictactoe/EventLoop.java:26: error: unclosed character literal
+      while player's inputs and player's move are NOT valid
+                                      ^
+/home/student/tictactoe/tictactoe/EventLoop.java:26: error: ';' expected
+      while player's inputs and player's move are NOT valid
+                                                 ^
+/home/student/tictactoe/tictactoe/EventLoop.java:26: error: ';' expected
+      while player's inputs and player's move are NOT valid
+                                                           ^
+/home/student/tictactoe/tictactoe/EventLoop.java:27: error: ';' expected
+      set gameState = MAKE_MOVE
+                               ^
+/home/student/tictactoe/tictactoe/EventLoop.java:29: error: <identifier> expected
+    else if gameState == MAKE_MOVE
+                     ^
+/home/student/tictactoe/tictactoe/EventLoop.java:30: error: ';' expected
+      print player's move
+           ^
+/home/student/tictactoe/tictactoe/EventLoop.java:30: error: unclosed character literal
+      print player's move
+                  ^
+/home/student/tictactoe/tictactoe/EventLoop.java:31: error: ';' expected
+      add player's move to the board
+         ^
+/home/student/tictactoe/tictactoe/EventLoop.java:31: error: unclosed character literal
+      add player's move to the board
+                ^
+/home/student/tictactoe/tictactoe/EventLoop.java:31: error: ';' expected
+      add player's move to the board
+                          ^
+/home/student/tictactoe/tictactoe/EventLoop.java:31: error: ';' expected
+      add player's move to the board
+                                    ^
+/home/student/tictactoe/tictactoe/EventLoop.java:32: error: ';' expected
+      set gameState = CHECK_IF_WINNER
+                                     ^
+/home/student/tictactoe/tictactoe/EventLoop.java:34: error: <identifier> expected
+    else if gameState == CHECK_IF_WINNER
+                     ^
+/home/student/tictactoe/tictactoe/EventLoop.java:34: error: <identifier> expected
+    else if gameState == CHECK_IF_WINNER
+                                        ^
+/home/student/tictactoe/tictactoe/EventLoop.java:35: error: ';' expected
+  if x is a winner
+         ^
+/home/student/tictactoe/tictactoe/EventLoop.java:35: error: ';' expected
+  if x is a winner
+                  ^
+/home/student/tictactoe/tictactoe/EventLoop.java:36: error: ';' expected
+    set gameState = X_WINS
+                          ^
+/home/student/tictactoe/tictactoe/EventLoop.java:37: error: ';' expected
+  else if o is a winner
+              ^
+/home/student/tictactoe/tictactoe/EventLoop.java:37: error: ';' expected
+  else if o is a winner
+                       ^
+/home/student/tictactoe/tictactoe/EventLoop.java:38: error: ';' expected
+    set gameState = O_WINS
+                          ^
+/home/student/tictactoe/tictactoe/EventLoop.java:40: error: ';' expected
+    set gameState = CHECK_IF_TIE
+                                ^
+/home/student/tictactoe/tictactoe/EventLoop.java:42: error: <identifier> expected
+else if gameState == CHECK_IF_TIE
+                 ^
+/home/student/tictactoe/tictactoe/EventLoop.java:42: error: <identifier> expected
+else if gameState == CHECK_IF_TIE
+                                 ^
+/home/student/tictactoe/tictactoe/EventLoop.java:43: error: ';' expected
+  if game is tied
+            ^
+/home/student/tictactoe/tictactoe/EventLoop.java:43: error: <identifier> expected
+  if game is tied
+                 ^
+65 errors
