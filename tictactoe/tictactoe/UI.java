@@ -35,7 +35,7 @@ public class UI
     } 
     
     public int getMoveRow(int whoseMove, String xName, String oName) {
-        int row;
+        int row = 0;
         while (row <= 0 || row >= 4) {
             try {
                 System.out.printf(Constants.GET_ROW_MOVE, getXOrO(whoseMove), getPlayerName(whoseMove,xName,oName));
@@ -48,7 +48,7 @@ public class UI
     }
 
     public int getMoveCol(int whoseMove, String xName, String oName) {
-        int col;
+        int col = 0;
         while (col <= 0 || col >= 4) {
             try {
                 System.out.printf(Constants.GET_COL_MOVE, getXOrO(whoseMove), getPlayerName(whoseMove, xName, oName));
