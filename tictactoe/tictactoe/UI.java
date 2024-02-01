@@ -31,7 +31,7 @@ public class UI
     public boolean isLegalMove(State state, int row, int col) {
         return 1 <= row && row <= Constants.BOARD_SIZE &&
         1 <= col && col <= Constants.BOARD_SIZE &&
-        state.getBoardCell(row, col) == Constants.BLANK;
+        state.getBoardCell(row-1, col-1) == Constants.BLANK;
     }
 
     // Prompt for input methods
@@ -70,7 +70,7 @@ public class UI
     public boolean startNewGame() {
         System.out.println(Constants.START_NEW_GAME);
         String yesOrNo = scanner.next();
-        return yesOrNo == "T";
+        return yesOrNo.equals("Y") || yesOrNo.equals("y");
     }
 
     // Printing text methods
@@ -87,8 +87,8 @@ public class UI
         }
     }
     
-      public void printInvalidRowOrColumn(int rowOrCol) {
-        System.out.printf(Constants.INVALID_ROW_OR_COLUMN, rowOrCol);
+      public void printInvalidRowOrColumn() {
+        System.out.printf(Constants.INVALID_ROW_OR_COLUMN);
     }
 
     public void printInvalidMove(int row, int col) {
@@ -96,11 +96,23 @@ public class UI
     }
 
     public void printMove(State state, int row, int col) {
-        System.out.printf(Constants.PRINT_MOVE, getXOrO(state.getWhoseMove()), getPlayerName(state.getWhoseMove(), state.getXName(), state.getOName()), row, col);
+        System.out.printf(
+            Constants.PRINT_MOVE,
+            getXOrO(state.getWhoseMove()),
+            getPlayerName(state.getWhoseMove(), state.getXName(), state.getOName()), 
+            row, 
+            col
+        );
+        System.out.println();
     } 
 
     public void printWinner(State state) {
-        System.out.printf(Constants.WINNER, getXOrO(state.getWhoseMove()), getPlayerName(state.getWhoseMove(), state.getXName(), state.getOName()));
+        System.out.printf(
+            Constants.WINNER, 
+            getXOrO(state.getWhoseMove()), 
+            getPlayerName(state.getWhoseMove(), state.getXName(), state.getOName())
+        );
+        System.out.println();
     }
 
     public void printTieGame() {
