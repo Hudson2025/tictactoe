@@ -43,6 +43,7 @@ public class UI
     
     public int getMoveRow(int whoseMove, String xName, String oName) {
         int row = 0;
+        //HERE FIX HERE!!!!!
         while (row <= 0 || row >= 4) {
             try {
                 System.out.printf(Constants.GET_ROW_MOVE, getXOrO(whoseMove), getPlayerName(whoseMove,xName,oName));
