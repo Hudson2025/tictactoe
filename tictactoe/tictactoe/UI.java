@@ -45,6 +45,9 @@ public class UI
         int row = 0;
         //HERE FIX HERE!!!!!
         while (row <= 0 || row >= 4) {
+            if (row >= 4) {
+                 System.out.println("number out of bounds");
+            }
             try {
                 System.out.printf(Constants.GET_ROW_MOVE, getXOrO(whoseMove), getPlayerName(whoseMove,xName,oName));
                 row = scanner.nextInt();
@@ -58,6 +61,10 @@ public class UI
     public int getMoveCol(int whoseMove, String xName, String oName) {
         int col = 0;
         while (col <= 0 || col >= 4) {
+            if (col <= 4) {
+                System.out.println("number out of bounds");
+            }
+              
             try {
                 System.out.printf(Constants.GET_COL_MOVE, getXOrO(whoseMove), getPlayerName(whoseMove, xName, oName));
                 col = scanner.nextInt();
