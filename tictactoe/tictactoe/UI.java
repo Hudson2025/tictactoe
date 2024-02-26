@@ -45,10 +45,13 @@ public class UI
         int row = 0;
         //HERE FIX HERE!!!!!
         while (row <= 0 || row >= 4) {
+            if (row >= 4)
+                System.out.println("row must be 1, 2, or 3");
             try {
                 System.out.printf(Constants.GET_ROW_MOVE, getXOrO(whoseMove), getPlayerName(whoseMove,xName,oName));
                 row = scanner.nextInt();
             } catch (Exception e) {
+                scanner.next();
                 System.out.println(Constants.INVALID_ROW_OR_COLUMN);
             }
         }
@@ -58,10 +61,13 @@ public class UI
     public int getMoveCol(int whoseMove, String xName, String oName) {
         int col = 0;
         while (col <= 0 || col >= 4) {
+            if (col >= 4)
+                System.out.println("col must be 1, 2, or 3");
             try {
                 System.out.printf(Constants.GET_COL_MOVE, getXOrO(whoseMove), getPlayerName(whoseMove, xName, oName));
                 col = scanner.nextInt();
             } catch (Exception e) {
+                scanner.next();
                 System.out.println(Constants.INVALID_ROW_OR_COLUMN);
             }
         }
